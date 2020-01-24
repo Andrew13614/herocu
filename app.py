@@ -154,7 +154,7 @@ def user(cur, conn, userid):
 
 @app.route('/')
 def index():
-	return "<h1>Finally, works!123</h1>"
+	return "<h1>12345</h1>"
 
 @db_connect
 def init(cur, conn):
